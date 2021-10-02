@@ -1,0 +1,61 @@
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box
+    }
+
+    header{
+        width: 80%;
+        height: 200px;
+        background-image: linear-gradient(to left, #2196F3, #3D5AFE, #0D47A1);
+        margin: auto;
+       padding-top: 50px;
+       position: relative;
+    }
+    h1, h4{
+       
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    .icons-list{
+        color: #2196F3;
+        font-size: 64px;
+        position: absolute;
+       margin-left: 525px;
+       margin-right: 525px;
+       margin-top: 120px;
+       background-color: white;
+      border-radius: 100%;   
+    }
+
+   .buscador{
+       background-color:#2196F3 ;
+      width: 362px;
+       height: 30px;
+       color: white;
+       cursor: pointer;
+       
+   }
+   label{
+    display: block;
+    height: auto;
+padding: 2px;
+}
+form{
+    margin-left: 520px;
+    margin-top: 50px ;
+    width: 300px;
+   height: 100px;
+   
+}
+fieldset{
+    padding: 30px;
+    border: 1px solid black;
+
+}
+      .txt{
+          width: 300px;
+          height: 30px;
+      } 
+     

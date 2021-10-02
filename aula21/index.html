@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding:0;
+    }
+    body{
+        background-color: blue;
+    }
+    main{
+        margin: 50px auto;
+        height: auto;
+        width: 80%;
+        border: 2px dotted rebeccapurple;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: seashell;}
+
+        h2{
+            font-size: 0.8em;
+            padding: 5px 0 9px 0;
+        }
+        .borda{
+            border: 1px solid red;
+        }
+        .margem{
+            margin-left: 30px;
+        }
+        .remove-bullet{
+        list-style: none;
+        }
+        li{
+            width: 100%;
+            height: auto;
+            background-color: skyblue;
+            margin: 2px;
+        }
+        ol{
+            width: 200PX;
+            height: auto;
+            margin: 30px;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            background-color: springgreen;
+            margin: 5px;
+            display: block;
+        }
+        a{
+            width: 100%;
+            height: 20px;
+            border: 1px solid black;
+            display: block;
+        }
+</style>
+<body>
+    <main>
+        <h2>lista desordenada</h2>
+        <!-- lista desordenada -->
+        <ul class="borda remove-bullet">
+            <li>uuu</li>
+            <li>iii</li>
+            <li>ooo</li>
+            <li>eee</li>
+            <li><a href="#">clique aqui</a></li>
+        </ul>
+        <h2>lista ordenadas</h2>
+        <!-- lista ordenadas -->
+        <ol class="margem" type="A">
+            <li>uuu</li>
+            <li>iii</li>
+            <li>ooo</li>
+            <li>eee</li>
+            <li><a href="#">clique aqui</a></li>
+        </ol>
+        <h2>lista por definição</h2>
+        <!-- lista por definição -->
+        <dl>
+            <dt> <strong>fiat</strong> </dt>
+            <dd>uno</dd>
+            <dd>argo</dd>
+            <dt> <strong>vw</strong> </dt>
+            <dd style="color: red;">fusca</dd>
+            <dd>gol</dd>
+        </dl>
+        <div></div>
+        <div></div>
+        <div></div>
+    </main>
+    
+</body>
+</html>

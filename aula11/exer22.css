@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#pai #filho{
+    background-size: 100%;
+    background-color: brown;
+    border: 2px solid tomato;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        width: 80%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    section#formulario{
+        margin: 30px auto;
+        padding: 5px;
+    }
+        form{
+            width: 100%;
+            height: auto;
+            padding: 2px;
+        }
+        label{
+            display: block;
+            width: 100%;
+            height: auto;
+        padding: 2px;
+        }
+        .txt{
+            width: 100%;
+            height: 30px;
+        }
+fieldset{
+    padding: 2px;
+    border: none;
+}
+</style>
+<body>
+    <section id="formulario">
+  <form method="POST" name="cadastro">
+    <fieldset>
+        <legend>cadastrousuario</legend>
+        <label for="nomeusu">nome</label>
+      <input type="text" required placeholder="digite seu nome" class="txt" id="nomeusu" name="nomeusu" value="">
+      <label for="sobrenomeusu">sobrenome</label>
+      <input type="text" class="txt" id="sobrenomeusu" name="sobrenomeusu" value="">
+        <label for="datanascusu">data de nascimento</label>
+        <input type="text" class="txt" id="datanascusu" name="datanascusu" value="">
+    
+      
+    </fieldset>
+    <fieldset>
+        <legend>sexo</legend>
+        <label>masculino</label>
+    <input type="radio" name="genero" value="m">
+    <label>feminino</label>
+    <input type="radio" name="genero" value="f">
+    </fieldset>
+    <fieldset>
+        <legend>estudos</legend>
+        <label for="php">php</label>
+        <input type="checkbox" id="php" name="php" value="php">
+        <label for="js">java</label>
+        <input type="checkbox" id="js" name="js" value="js">
+        <label for="html">html</label>
+        <input type="checkbox" id="html"  name="html" value="html">
+    </fieldset>
+    <fieldset>
+    <select>
+        <option value="selecione">selecione</option>
+        <option value="junior">junior</option>
+        <option value="senior">senior</option>
+        <option value="master">master</option>
+    </select></fieldset>
+    <fieldset>
+    <label for="edicao">escreva sobre voce</label>
+    <textarea name="" id="edicao" cols="80" rows="10"></textarea>
+  </fieldset>
+  <input type="submit" name="enviardados" value="enviar">
+</form> </section> 
+</body>
+</html>

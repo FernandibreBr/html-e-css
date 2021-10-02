@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+main, header, footer{
+    width: 80%;
+    background-color: yellow;
+   margin: 10px auto 10px auto;
+}
+main{
+    height: auto;
+ 
+}
+header{
+    height: 60px;
+}
+.ajuste{
+    height: 30vh;
+    background-color: green;
+}
+.content-card > div, footer > div{
+    width: 48%;
+    height: 200px;
+    background-color: orange;
+    
+}
+.flex{
+    display: flex;
+}
+.spacebtw{
+    justify-content: space-between;
+}
+section{
+    margin: 10px 0 10px 0;
+    background-color: rgb(59, 181, 252);
+}
+footer{
+    height: auto;
+}
+@media screen and (max-width: 700px){
+   body{ background-color:black ;}
+   section, footer{
+       height: auto;
+       flex-direction: column;
+   } 
+   section.content-card > div{
+       width: 100%;
+       margin-bottom: 5px;
+
+   }
+}
